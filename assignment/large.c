@@ -7,15 +7,15 @@ int main(){
         printf("the largest number among given three");
         printf("%f", a);
     }
-    if (b>a && b>c){
+    else if (b>a && b>c){
         printf("the largest number among the given three");
         printf("%f", b);
     }
-    if (c>a && c>b){
+    else if (c>a && c>b){
         printf(" largest number among given three");
         printf("%f", c);
     }
-    if (a==b && b==c){
+    else if (a==b && b==c){
         printf("all three numbers are equal");
     }
     return 0;
