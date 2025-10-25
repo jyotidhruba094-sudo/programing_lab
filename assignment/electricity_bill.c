@@ -24,4 +24,5 @@ int main()
                 bill=100*1.5+ 100*2+ 100*3+ (unit-300)*5 ;
                 printf("the net bill %f", bill);
         }
+        return 0;
 }
